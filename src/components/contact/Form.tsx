@@ -4,7 +4,7 @@ import Input from "./Input";
 import Popup from "./Popup";
 
 function Form() {
-  const form = useRef();
+  const form = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
   const [response, setResponse] = useState("");
   function closeModal() {
@@ -31,7 +31,7 @@ function Form() {
         (result) => {
           console.log(result.text);
           setResponse("Mesajul a fost trimis cu succes!");
-          form.current.reset();
+          if (form.current) form.current.reset();
         },
         (error) => {
           console.log(error.text);
