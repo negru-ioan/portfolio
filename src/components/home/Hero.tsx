@@ -17,41 +17,41 @@ function Hero() {
           <img
             className="sqD squiggle-hero-html w-16 top-[-90px] right-[5%] sm:top-[-90px] sm:right-[170px]"
             style={{ animationDelay: "0.1s" }}
-            src="/img/doodles/hero/html.svg"
+            src="./img/doodles/hero/html.svg"
           />
           <img
             className="sqD bottom-[-350px] -right-1/4 sm:right-[-20%] lg:bottom-[-350px] lg:right-[-120px] w-[230px] opacity-50"
             style={{ animationDelay: "0.3s", rotate: "-17deg" }}
-            src="/img/doodles/www.svg"
+            src="./img/doodles/www.svg"
           />
           <img
             className="sqD hidden sm:block bottom-[-340px] left-[-180px]"
             style={{ animationDelay: "0.4s" }}
-            src="/img/doodles/hero/coder.svg"
+            src="./img/doodles/hero/coder.svg"
           />
           <img
             className="sqD hidden sm:block left-[100px] lg:left-[160px] bottom-[-150px]"
             style={{ animationDelay: "0.5s" }}
-            src="/img/doodles/hero/js.svg"
+            src="./img/doodles/hero/js.svg"
           />
           <img
             className="sqD bottom-[-320px] right-[65%] sm:right-[45%]"
             style={{ animationDelay: "0.6s" }}
-            src="/img/doodles/hero/dino.svg"
+            src="./img/doodles/hero/dino.svg"
           />
           <img
             className="sqD right-[-60px] sm:right-0 bottom-[-180px] lg:[5%]"
             style={{ animationDelay: "0.7s" }}
-            src="/img/doodles/hero/paintbrush.svg"
+            src="./img/doodles/hero/paintbrush.svg"
           />
           <img
             className="sqD squiggle-hero-pop1 hidden sm:block sm:top-[-130px] sm:left-[15%] lg:top-[-130px] lg:left-[120px]"
-            src="/img/doodles/hero/pop1.svg"
+            src="./img/doodles/hero/pop1.svg"
           />
           <img
             className="sqD left-[-35px] bottom-[-85px] sm:bottom-[-100px] sm:left-5 opacity-40"
             style={{ animationDelay: "0.9s" }}
-            src="/img/doodles/hero/code.svg"
+            src="./img/doodles/hero/code.svg"
           />
         </h1>
         <ScrollLink

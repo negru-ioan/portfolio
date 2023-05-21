@@ -9,7 +9,7 @@ function Navbar({ currentPage }: { currentPage: string }) {
           <span className="font-black text-xl flex items-center">
             <img
               className="transform hover:rotate-360 hover:scale-75 transition-transform duration-500 rounded-full"
-              src="/img/icons/logo.svg"
+              src="./img/icons/logo.svg"
               width="60"
             />
             {"NegruIoan".split("").map((letter, index) => {

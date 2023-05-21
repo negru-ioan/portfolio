@@ -15,7 +15,7 @@ function Heading({ tag }: HeadingProps) {
             Projects built with <b>{tag}</b>
             <img
               className="sqD w-8 sm:w-10 -top-6 -right-2 sm:-right-8 sm:-top-8 absolute"
-              src="/img/doodles/hero/code.svg"
+              src="./img/doodles/hero/code.svg"
             />
           </h1>
         </>
@@ -24,15 +24,15 @@ function Heading({ tag }: HeadingProps) {
           Proiecte
           <img
             className="sqD w-10 -top-8 -right-8 absolute"
-            src="/img/doodles/hero/code.svg"
+            src="./img/doodles/hero/code.svg"
           />
         </h1>
       )}
       {!tag && (
         <p className="text-fun-gray text-xl sm:text-2xl max-w-3xl m-auto">
-          Am creat aplicații și site-uri web deosebite folosind orice, de la HTML
-          la React (chiar și Redux!). Iată câteva dintre proiectele mele preferate
-          de-a lungul călătoriei mele.
+          Am creat aplicații și site-uri web deosebite folosind orice, de la
+          HTML la React (chiar și Redux!). Iată câteva dintre proiectele mele
+          preferate de-a lungul călătoriei mele.
         </p>
       )}
     </div>

@@ -82,7 +82,7 @@ function Footer() {
           rel="nooreferrer"
         >
           <img
-            src="/img/icons/github.svg"
+            src="./img/icons/github.svg"
             width={16}
             height={16}
             alt="Github Icon"

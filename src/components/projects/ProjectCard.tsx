@@ -22,7 +22,7 @@ function ProjectCard({ project }) {
             {project.link && (
               <a href={project.link} target="_blank" rel="noreferrer">
                 <img
-                  src="/img/icons/external-link.svg"
+                  src="./img/icons/external-link.svg"
                   width={16}
                   height={16}
                   alt="Link Icon"
@@ -32,7 +32,7 @@ function ProjectCard({ project }) {
             {project.github && (
               <a href={project.github} target="_blank" rel="noreferrer">
                 <img
-                  src="/img/icons/github.svg"
+                  src="./img/icons/github.svg"
                   width={16}
                   height={16}
                   alt="Github Icon"

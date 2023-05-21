@@ -60,19 +60,19 @@ export const footer: Footer = {
         {
           name: "GitHub",
           link: "https://github.com/negru-ioan",
-          icon: "/img/icons/github.svg",
+          icon: "./img/icons/github.svg",
           leavesWebsite: true,
         },
         {
           name: "LinkedIn",
           link: "https://www.linkedin.com/in/ioan-negru-7b0730226/",
-          icon: "/img/icons/linkedin-f.svg",
+          icon: "./img/icons/linkedin-f.svg",
           leavesWebsite: true,
         },
         {
           name: "Email",
           link: "mailto:negruioan@duck.com",
-          icon: "/img/icons/mail-f.svg",
+          icon: "./img/icons/mail-f.svg",
           leavesWebsite: true,
         },
       ],
@@ -82,12 +82,12 @@ export const footer: Footer = {
       links: [
         {
           name: "CV",
-          link: "/utils/CV.pdf",
+          link: "/portfolio/utils/CV.pdf",
           leavesWebsite: true,
         },
         {
           name: "Resume",
-          link: "/utils/resume.pdf",
+          link: "/portfolio/utils/resume.pdf",
           leavesWebsite: true,
         },
         {

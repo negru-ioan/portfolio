@@ -40,7 +40,7 @@ export default function MobileNavbar() {
           <Link to="/portfolio/" className="flex items-center">
             <img
               className="transform hover:rotate-360 hover:scale-75 transition-transform duration-500 rounded-full"
-              src="/img/icons/logo.svg"
+              src="./img/icons/logo.svg"
               width="50"
             />
             NegruIoan
