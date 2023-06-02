@@ -68,15 +68,7 @@ function Form() {
           </button>
         </div>
 
-        <form ref={form} onSubmit={sendEmail} className="text-white">
-          <div className="w-full my-4">
-            <input
-              type="submit"
-              value="Trimite mesajul"
-              className="w-full cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white border-2 text-xl border-fun-white
-              rounded-full bg-white text-bg hover:bg-bg hover:text-white hover:border-fun-pink transition-colors"
-            />
-          </div>
+        <form ref={form} onSubmit={sendEmail} className="text-white mt-">
           <Input label="Nume" name="user_name" type="name" />
           <Input label="Email" name="user_email" type="email" />
           <Input label="Telefon" name="phone_number" type="tel" />
@@ -85,6 +77,14 @@ function Form() {
             placeholder="Scrie mesajul tau aici..."
             name="message"
           ></textarea>
+          <div className="w-full my-4">
+            <input
+              type="submit"
+              value="Trimite mesajul"
+              className="w-full cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white border-2 text-xl border-fun-white
+              rounded-full bg-white text-bg hover:bg-bg hover:text-white hover:border-fun-pink transition-colors"
+            />
+          </div>
           {isOpen && (
             <Popup
               isOpen={isOpen}
@@ -97,5 +97,6 @@ function Form() {
     </div>
   );
 }
+
 
 export default Form;

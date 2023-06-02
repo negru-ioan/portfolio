@@ -14,10 +14,10 @@ import Contact from "./pages/Contact.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/portfolio/" element={<App />}>
+    <Route path="/" element={<App />}>
       <Route index element={<Home />} />
-      <Route path="/portfolio/proiecte" element={<ProjectsPage />} />
-      <Route path="/portfolio/contacte" element={<Contact />} />
+      <Route path="/proiecte" element={<ProjectsPage />} />
+      <Route path="/contacte" element={<Contact />} />
     </Route>
   )
 );

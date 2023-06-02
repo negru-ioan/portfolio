@@ -37,7 +37,7 @@ export default function MobileNavbar() {
         style={{ zIndex: 101 }}
       >
         <li className="list-none font-bold text-lg">
-          <Link to="/portfolio/" className="flex items-center">
+          <Link to="/" className="flex items-center">
             <img
               className="transform hover:rotate-360 hover:scale-75 transition-transform duration-500 rounded-full"
               src="./img/icons/logo.svg"

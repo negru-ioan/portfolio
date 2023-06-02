@@ -31,8 +31,8 @@ function Heading({ tag }: HeadingProps) {
       {!tag && (
         <p className="text-fun-gray text-xl sm:text-2xl max-w-3xl m-auto">
           Am creat aplicații și site-uri web deosebite folosind orice, de la
-          HTML la React (chiar și Redux!). Iată câteva dintre proiectele mele
-          preferate de-a lungul călătoriei mele.
+          HTML la React. Iată câteva dintre proiectele mele preferate de-a
+          lungul călătoriei mele.
         </p>
       )}
     </div>

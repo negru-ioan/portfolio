@@ -8,7 +8,7 @@ function Hero() {
         className="relative heroElem w-full pt-20 pb-40 m-auto flex justify-center text-center flex-col items-center z-1"
         style={{ maxWidth: "1200px" }}
       >
-        <p className="text-xl mb-5">Hei, sunt Ioan.</p>
+        <p className="text-xl mb-5">Salut, eu sunt Ioan!</p>
         <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold heroShinyBg">
           Sunt pasionat de{" "}
           <span className="heroShiny1 text-fun-pink">crearea</span> unor{" "}

@@ -2,19 +2,19 @@ import { Link } from "react-router-dom";
 
 function CTA() {
   return (
-    <div className="pt-36 relative w-full pb-0 sm:pb-24">
+    <div className="pt-36 relative w-full h-[550px] sm:h-[800px] pb-0 sm:pb-24">
       <img
-        className="w-30 hidden  m-auto mb-2"
+        className="w-30 hidden m-auto mb-2"
         src="./img/doodles/lineBreak.svg"
       />
       <div className="pt-14 pb-40">
         <h2 className="text-4xl md:text-5xl font-bold mb-20">
-          Doriți să colaborăm?
+          Hai să discutăm!
         </h2>
         <Link
-          to="/portfolio/contacte"
-          className="cursor-pointer font-bold whitespace-nowrap 
-        mt-6 px-8 py-3 text-white border-2 rounded-full border-white bg-bg hover:bg-fun-pink hover:border-fun-pink transition-colors"
+          to="/contacte"
+          className="cursor-pointer font-bold whitespace-nowrap px-8 py-3 text-white border-2 rounded-full border-white
+           bg-bg hover:bg-fun-pink hover:border-fun-pink transition-colors relative sm:-bottom-24"
         >
           Contactați-mă
         </Link>

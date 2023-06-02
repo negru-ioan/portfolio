@@ -20,15 +20,15 @@ type Footer = {
 export const routes: Route[] = [
   {
     title: "Acasă",
-    path: "/portfolio/",
+    path: "/",
   },
   {
     title: "Proiecte",
-    path: "/portfolio/proiecte",
+    path: "/proiecte",
   },
   {
     title: "Contacte",
-    path: "/portfolio/contacte",
+    path: "/contacte",
   },
 ];
 
@@ -39,17 +39,17 @@ export const footer: Footer = {
       links: [
         {
           name: "Acasă",
-          link: "/portfolio/",
+          link: "/",
           leavesWebsite: false,
         },
         {
           name: "Proiecte",
-          link: "/portfolio/proiecte",
+          link: "/proiecte",
           leavesWebsite: false,
         },
         {
           name: "Contacte",
-          link: "/portfolio/contacte",
+          link: "/contacte",
           leavesWebsite: false,
         },
       ],
@@ -82,12 +82,12 @@ export const footer: Footer = {
       links: [
         {
           name: "CV",
-          link: "/portfolio/utils/CV.pdf",
+          link: "/utils/CV.pdf",
           leavesWebsite: true,
         },
         {
           name: "Resume",
-          link: "/portfolio/utils/resume.pdf",
+          link: "/utils/resume.pdf",
           leavesWebsite: true,
         },
         {

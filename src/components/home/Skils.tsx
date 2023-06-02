@@ -7,7 +7,8 @@ function Skills() {
       <h2 className="relative text-3xl w-full text-center md:text-left font-bold md:max-w-lg mb-10 md:mr-10 md:mb-0 md:w-max mr-0 ">
         Dotat cu experiență,
         <br />
-        iată instrumentele ce m-au ajutat să obțin succesul.
+        {/* iată instrumentele ce m-au ajutat să obțin succesul. */}
+        iată arsenalul meu de instrumente și limbaje de programare
         <img
           className="sqD bottom-[-80px] left-[-50px] lg:bottom-[-50px] lg:left-[-35px] z-[-10]"
           src="./img/doodles/skills/laptop.svg"
