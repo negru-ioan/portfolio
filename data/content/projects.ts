@@ -67,7 +67,7 @@ const projects: Project[] = [
       id: 99,
       title: "Memorix",
       desc: "Testează-ți memorie și atenția într-un joc captivant!",
-      img: "./img/projects/Memorix3.png",
+      img: "./img/projects/Memorix.jpg",
       link: "https://negru-ioan.github.io/memorix/",
       github: "https://github.com/negru-ioan/memorix/",
       tags: ["React", "PWA", "CSS"],
@@ -116,16 +116,7 @@ const projects: Project[] = [
       link: "https://negru-ioan.github.io/Ivaro-Srl-website/",
       github: "https://github.com/negru-ioan/Ivaro-Srl-website",
       tags: ["React", "CSS", "JavaScript"],
-   },
-   // {
-   //   id: 11,
-   //   title: "X & O",
-   //   desc: "Un joc simplu ala X și O.",
-   //   img: "./img/projects/x-o.jpg",
-   //   link: "https://negru-ioan.github.io/xo/",
-   //   github: "https://github.com/negru-ioan/xo",
-   //   tags: ["React", "CSS"],
-   // },
+   }
 ];
 
 export default projects;
