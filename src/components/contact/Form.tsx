@@ -72,7 +72,7 @@ function Form() {
                </button>
             </div>
 
-            <form ref={form} onSubmit={sendEmail} className="text-white mt-">
+            <form ref={form} onSubmit={sendEmail} className="text-white mt-6">
                <Input label="Nume" name="user_name" type="name" />
                <Input label="Email" name="user_email" type="email" />
                <Input label="Telefon" name="phone_number" type="tel" />

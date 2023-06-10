@@ -55,15 +55,6 @@ const projects: Project[] = [
       tags: ["React", "MUI", "AXIOS", "API"],
    },
    {
-      id: 5,
-      title: "Gioconda",
-      desc: "Descoperiți cele mai recente trenduri în modă cu Gioconda ecomerce.",
-      img: "./img/projects/gioconda.jpg",
-      link: "https://negru-ioan.github.io/Gioconda.com/",
-      github: "https://github.com/negru-ioan/Gioconda.com",
-      tags: ["React", "TailwindCSS", "React Context", "API"],
-   },
-   {
       id: 99,
       title: "Memorix",
       desc: "Testează-ți memorie și atenția într-un joc captivant!",
@@ -71,6 +62,15 @@ const projects: Project[] = [
       link: "https://negru-ioan.github.io/memorix/",
       github: "https://github.com/negru-ioan/memorix/",
       tags: ["React", "PWA", "CSS"],
+   },
+   {
+      id: 5,
+      title: "Gioconda",
+      desc: "Descoperiți cele mai recente trenduri în modă cu Gioconda ecomerce.",
+      img: "./img/projects/gioconda.jpg",
+      link: "https://negru-ioan.github.io/Gioconda.com/",
+      github: "https://github.com/negru-ioan/Gioconda.com",
+      tags: ["React", "TailwindCSS", "React Context", "API"],
    },
    {
       id: 6,
@@ -100,6 +100,15 @@ const projects: Project[] = [
       tags: ["HTML", "CSS", "JavaScript"],
    },
    {
+      id: 8,
+      title: "Ivaro srl",
+      desc: "Ivaro Srl prezintă site-ul demo pentru distribuția de produse alcoolice.",
+      img: "./img/projects/ivaro.jpg",
+      link: "https://negru-ioan.github.io/Ivaro-Srl-website/",
+      github: "https://github.com/negru-ioan/Ivaro-Srl-website",
+      tags: ["React", "CSS", "JavaScript"],
+   },
+   {
       id: 10,
       title: "Tenzies",
       desc: "Cel mai rapid și simplu joc din lume!",
@@ -108,15 +117,6 @@ const projects: Project[] = [
       github: "https://github.com/negru-ioan/Tenzies",
       tags: ["React", "CSS"],
    },
-   {
-      id: 8,
-      title: "Ivaro srl",
-      desc: "Ivaro Srl prezintă site-ul demo pentru distribuția de produse alcoolice.",
-      img: "./img/projects/ivaro.jpg",
-      link: "https://negru-ioan.github.io/Ivaro-Srl-website/",
-      github: "https://github.com/negru-ioan/Ivaro-Srl-website",
-      tags: ["React", "CSS", "JavaScript"],
-   }
 ];
 
 export default projects;

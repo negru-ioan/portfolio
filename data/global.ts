@@ -85,9 +85,14 @@ export const footer: Footer = {
                link: "/utils/CV.pdf",
                leavesWebsite: true,
             },
+            // {
+            //    name: "Resume",
+            //    link: "/utils/resume.pdf",
+            //    leavesWebsite: true,
+            // },
             {
-               name: "Resume",
-               link: "/utils/resume.pdf",
+               name: "SMS",
+               link: "sms:+37368611453?body=Hello%20there",
                leavesWebsite: true,
             },
             {

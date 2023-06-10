@@ -22,7 +22,7 @@ function Footer() {
                           className="items-center flex"
                         >
                           {item.icon && (
-                            <span className="pr-2 -mb-1 invert-[50%]">
+                            <span className="pr-2 invert-[50%]">
                               <img src={item.icon} width={20} height={20} />
                             </span>
                           )}

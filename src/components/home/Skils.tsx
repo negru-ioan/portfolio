@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { skills } from "../../../data/content/home";
 
 function Skills() {
+    const mobile = document.body.clientWidth
   return (
     <div className="flex flex-col md:flex-row justify-between relative">
       <h2 className="relative text-3xl w-full text-center md:text-left font-bold md:max-w-lg mb-10 md:mr-10 md:mb-0 md:w-max mr-0 ">
@@ -33,6 +34,7 @@ function Skills() {
               title={item.title}
               key={index}
               className="w-16 mx-auto flex items-center flex-col justify-center"
+              style={{display: (mobile > 600 && item.mobile) && 'none'}}
             >
               <img src={item.icon} style={item.style} />
               <p className="text-xs text-fun-gray font-bold mt-3 opacity-80">
