@@ -73,6 +73,15 @@ const projects: Project[] = [
       tags: ["React", "TailwindCSS", "React Context", "API"],
    },
    {
+      id: 10,
+      title: "Temporent",
+      desc: "Temporent, rent cars online with ease!",
+      img: "./img/projects/Temporent.jpg",
+      link: "https://temporent.vercel.app/",
+      github: "https://github.com/negru-ioan/temporent",
+      tags: ["Next", "React", "TailwindCSS", "CSS"],
+   },
+   {
       id: 6,
       title: "Restaurant",
       desc: "A fictional restaurant where you can order food and drinks.",
@@ -108,15 +117,15 @@ const projects: Project[] = [
       github: "https://github.com/negru-ioan/Ivaro-Srl-website",
       tags: ["React", "CSS", "JavaScript"],
    },
-   {
-      id: 10,
-      title: "Tenzies",
-      desc: "Tenzi, the world's fastest and simplest game!",
-      img: "./img/projects/Tenzies.jpg",
-      link: "https://negru-ioan.github.io/Tenzies/",
-      github: "https://github.com/negru-ioan/Tenzies",
-      tags: ["React", "CSS"],
-   },
+   // {
+   //    id: 10,
+   //    title: "Tenzies",
+   //    desc: "Tenzi, the world's fastest and simplest game!",
+   //    img: "./img/projects/Tenzies.jpg",
+   //    link: "https://negru-ioan.github.io/Tenzies/",
+   //    github: "https://github.com/negru-ioan/Tenzies",
+   //    tags: ["React", "CSS"],
+   // },
 ];
 
 export default projects;
