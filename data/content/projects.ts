@@ -12,8 +12,8 @@ const projects: Project[] = [
    {
       id: 0,
       title: "Filmsero",
-      desc: "Explorați lumea fascinantă a filmelor și serialelor unde găsiți informații detaliate, recenzii și recomandări.",
-      img: "./img/projects/filmsero.jpg",
+      desc: "Explore the fascinating world of movies and TV shows where you can find detailed information, reviews, and recommendations.",
+      img: "./img/projects/Filmsero.png",
       link: "http://filmsero.42web.io/",
       github: "https://github.com/negru-ioan/filmsero/",
       tags: ["React", "Sass", "React Context", "API"],
@@ -21,8 +21,8 @@ const projects: Project[] = [
    {
       id: 1,
       title: "Riga Crypto",
-      desc: "Ultimele știri, prețuri, schimburi și multe altele despre criptomonede.",
-      img: "./img/projects/crypto.jpg",
+      desc: "The latest news, prices, exchanges, and much more about cryptocurrencies.",
+      img: "./img/projects/riga-crypto.png",
       link: "http://negru-ioan.rf.gd/",
       github: "https://github.com/negru-ioan/riga-crypto",
       tags: ["React", "Ant Design", "CSS", "Redux", "API"],
@@ -30,7 +30,7 @@ const projects: Project[] = [
    {
       id: 2,
       title: "Endgames",
-      desc: "Informații utile despre jocuri gratuite, disponibile pe un singur website.",
+      desc: "Useful information about free games, available on a single website.",
       img: "./img/projects/games.jpg",
       link: "https://negru-ioan.github.io/Endgames/",
       github: "https://github.com/negru-ioan/Endgames",
@@ -39,7 +39,7 @@ const projects: Project[] = [
    {
       id: 3,
       title: "Sumar",
-      desc: "Extractează și rezumă articole cu ChatGPT.",
+      desc: "Extract and summarize articles with ChatGPT.",
       img: "./img/projects/sumar.jpg",
       link: "https://negru-ioan.github.io/sumar/",
       github: "https://github.com/negru-ioan/sumar",
@@ -48,7 +48,7 @@ const projects: Project[] = [
    {
       id: 4,
       title: "TubeYou",
-      desc: "O reprezentare autentică a platformei YouTube.",
+      desc: "An authentic representation of the YouTube platform.",
       img: "./img/projects/TubeYou.jpg",
       link: "https://negru-ioan.github.io/TubeYou/",
       github: "https://github.com/negru-ioan/TubeYou",
@@ -57,7 +57,7 @@ const projects: Project[] = [
    {
       id: 99,
       title: "Memorix",
-      desc: "Testează-ți memorie și atenția într-un joc captivant!",
+      desc: "Test your memory and attention in a captivating game!",
       img: "./img/projects/Memorix.jpg",
       link: "https://negru-ioan.github.io/memorix/",
       github: "https://github.com/negru-ioan/memorix/",
@@ -66,7 +66,7 @@ const projects: Project[] = [
    {
       id: 5,
       title: "Gioconda",
-      desc: "Descoperiți cele mai recente trenduri în modă cu Gioconda ecomerce.",
+      desc: "Discover the latest fashion trends with Gioconda ecommerce.",
       img: "./img/projects/gioconda.jpg",
       link: "https://negru-ioan.github.io/Gioconda.com/",
       github: "https://github.com/negru-ioan/Gioconda.com",
@@ -75,7 +75,7 @@ const projects: Project[] = [
    {
       id: 6,
       title: "Restaurant",
-      desc: "Pagina principala a unui restaurant ficțional.",
+      desc: "A fictional restaurant where you can order food and drinks.",
       img: "./img/projects/restaurant.jpg",
       link: "https://negru-ioan.github.io/Restaurant/",
       github: "https://github.com/negru-ioan/Restaurant",
@@ -84,7 +84,7 @@ const projects: Project[] = [
    {
       id: 7,
       title: "Filmup",
-      desc: "Explorați lumea fascinantă a filmelor unde găsiți informații detaliate, recenzii și recomandări.",
+      desc: "Embark on a captivating journey through the world of movies, where you can discover detailed information, reviews, and recommendations.",
       img: "./img/projects/filmup.jpg",
       link: "https://negru-ioan.github.io/Filmup/",
       github: "https://github.com/negru-ioan/Filmup",
@@ -93,7 +93,7 @@ const projects: Project[] = [
    {
       id: 9,
       title: "Calculator",
-      desc: "Un calculator simplu si funcțional.",
+      desc: "A simple and functional calculator.",
       img: "./img/projects/calcul.jpg",
       link: "https://negru-ioan.github.io/calculator/",
       github: "https://github.com/negru-ioan/calculator",
@@ -102,7 +102,7 @@ const projects: Project[] = [
    {
       id: 8,
       title: "Ivaro srl",
-      desc: "Ivaro Srl prezintă site-ul demo pentru distribuția de produse alcoolice.",
+      desc: "A demo website for Ivaro srl, a company specializing in the distribution of alcoholic products.",
       img: "./img/projects/ivaro.jpg",
       link: "https://negru-ioan.github.io/Ivaro-Srl-website/",
       github: "https://github.com/negru-ioan/Ivaro-Srl-website",
@@ -111,7 +111,7 @@ const projects: Project[] = [
    {
       id: 10,
       title: "Tenzies",
-      desc: "Cel mai rapid și simplu joc din lume!",
+      desc: "Tenzi, the world's fastest and simplest game!",
       img: "./img/projects/Tenzies.jpg",
       link: "https://negru-ioan.github.io/Tenzies/",
       github: "https://github.com/negru-ioan/Tenzies",

@@ -9,14 +9,10 @@ function CTA() {
          />
          <div className="pt-14 pb-40">
             <h2 className="text-4xl md:text-5xl font-bold mb-20">
-               Hai să discutăm!
+               Would you like to chat?
             </h2>
-            <Link
-               to="/contacte"
-               className="cursor-pointer font-bold whitespace-nowrap px-8 py-3 text-white border-2 rounded-full border-white
-           bg-bg hover:bg-fun-pink hover:border-fun-pink transition-colors relative sm:-bottom-24"
-            >
-               Contactați-mă
+            <Link to="/contacts" className="btn relative sm:-bottom-24">
+               Contacts
             </Link>
          </div>
 

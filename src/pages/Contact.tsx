@@ -15,8 +15,8 @@ function Contact() {
                src="./img/doodles/hero/html.svg"
             />
             <img
-               className="sqD sm:block right-8 lg:left-[10px] bottom-[-150px] sm:bottom-[-195px] w-52 rotate-[-15deg] opacity-40"
-               style={{ animationDelay: "0.6s" }}
+               className="sqD sm:block right-8 lg:left-[10px] bottom-[-150px] sm:bottom-[-195px] w-52 opacity-40"
+               style={{ animationDelay: "0.6s", rotate: "-10deg" }}
                src="./img/doodles/contact-book.svg"
             />
             <img

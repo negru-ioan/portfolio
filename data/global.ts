@@ -19,37 +19,37 @@ type Footer = {
 
 export const routes: Route[] = [
    {
-      title: "Acasă",
+      title: "Home",
       path: "/",
    },
    {
-      title: "Proiecte",
-      path: "/proiecte",
+      title: "Projects",
+      path: "/projects",
    },
    {
-      title: "Contacte",
-      path: "/contacte",
+      title: "Contacts",
+      path: "/contacts",
    },
 ];
 
 export const footer: Footer = {
    columns: [
       {
-         title: "Pagini",
+         title: "Pages",
          links: [
             {
-               name: "Acasă",
+               name: "Home",
                link: "/",
                leavesWebsite: false,
             },
             {
-               name: "Proiecte",
-               link: "/proiecte",
+               name: "Projects",
+               link: "/projects",
                leavesWebsite: false,
             },
             {
-               name: "Contacte",
-               link: "/contacte",
+               name: "Contacts",
+               link: "/contacts",
                leavesWebsite: false,
             },
          ],
@@ -78,25 +78,20 @@ export const footer: Footer = {
          ],
       },
       {
-         title: "Utile",
+         title: "Contact Info",
          links: [
             {
-               name: "CV",
+               name: "Resume",
                link: "/utils/CV.pdf",
                leavesWebsite: true,
             },
-            // {
-            //    name: "Resume",
-            //    link: "/utils/resume.pdf",
-            //    leavesWebsite: true,
-            // },
             {
                name: "SMS",
                link: "sms:+37368611453?body=Hello%20there",
                leavesWebsite: true,
             },
             {
-               name: "Apelează",
+               name: "Phone Call",
                link: "tel:+37368611453",
                leavesWebsite: true,
             },

@@ -44,7 +44,7 @@ export const skills: Skill[] = [
    },
    {
       title: "Next",
-      icon: "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons@master/png/nextjs.png",
+      icon: "https://willstenzel.com/tools/nextjs-dark.png",
    },
    {
       title: "Redux",
