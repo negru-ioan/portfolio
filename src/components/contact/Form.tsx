@@ -57,10 +57,14 @@ function Form() {
             <div className="sm:block md:flex justify-between md:gap-3">
                <button
                   className="btn w-full text-xl max-sm:mb-4"
+                  style={{ border: "2px solid #fff" }}
                >
                   <a href="mailto:negruioan@duck.com">Open Mail</a>
                </button>
-               <button className="btn w-full text-xl">
+               <button
+                  className="btn w-full text-xl"
+                  style={{ border: "2px solid #fff" }}
+               >
                   <a href="tel:+37368611453">Call Me</a>
                </button>
             </div>
