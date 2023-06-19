@@ -55,15 +55,6 @@ const projects: Project[] = [
       tags: ["React", "MUI", "AXIOS", "API"],
    },
    {
-      id: 99,
-      title: "Memorix",
-      desc: "Test your memory and attention in a captivating game!",
-      img: "./img/projects/Memorix.jpg",
-      link: "https://negru-ioan.github.io/memorix/",
-      github: "https://github.com/negru-ioan/memorix/",
-      tags: ["React", "PWA", "CSS"],
-   },
-   {
       id: 5,
       title: "Gioconda",
       desc: "Discover the latest fashion trends with Gioconda ecommerce.",
@@ -71,6 +62,15 @@ const projects: Project[] = [
       link: "https://negru-ioan.github.io/Gioconda.com/",
       github: "https://github.com/negru-ioan/Gioconda.com",
       tags: ["React", "TailwindCSS", "React Context", "API"],
+   },
+   {
+      id: 99,
+      title: "Memorix",
+      desc: "Test your memory and attention in a captivating game!",
+      img: "./img/projects/Memorix.jpg",
+      link: "https://negru-ioan.github.io/memorix/",
+      github: "https://github.com/negru-ioan/memorix/",
+      tags: ["React", "PWA", "CSS"],
    },
    {
       id: 10,

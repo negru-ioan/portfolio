@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Projects from "../components/projects/Projects";
-import Heading from "../components/projects/Heading";
+// import Heading from "../components/projects/Heading";
 import More from "../components/projects/More";
 
 function ProjectsPage() {
+   useEffect(() => {
+      window.scrollTo(0, 0);
+   }, []);
    return (
       <>
          {/* <Heading /> */}

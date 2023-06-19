@@ -43,8 +43,8 @@ function Form() {
    };
    return (
       <div className="text-white w-[100%] h-full md:max-w-[700px] mx-auto">
-         <h1 className="py-5 text-4xl sm:text-5xl text-start px-3">
-            Get in touch with me.
+         <h1 className="py-5 text-4xl sm:text-5xl text-start px-3 font-semibold">
+            Get in touch with me
          </h1>
 
          <div className="md:max-w-full max-w-[650px] p-3">
