@@ -24,7 +24,7 @@ function Home() {
                Would you like to chat?
             </h2>
          </div>
-         <div className="w-full mt-20 mb-24 relative">
+         <div className="w-full mt-20 mb-12 relative">
             <Contact />
          </div>
       </>

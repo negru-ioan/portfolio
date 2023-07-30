@@ -6,7 +6,7 @@ function Contact() {
       window.scrollTo(0, 0);
    }, []);
    return (
-      <div className="relative">
+      <div className="relative mb-12">
          <div className="block lg:flex py-24">
             <div className="heroElem" style={{ animation: "none" }}>
                <img

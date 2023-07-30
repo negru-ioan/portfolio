@@ -11,6 +11,15 @@ type Project = {
 const projects: Project[] = [
    {
       id: 0,
+      title: "Stockz",
+      desc: "A financial platform that provides advanced charting tools, privileged insights, and comprehensive stock information.",
+      img: "./img/projects/Stockz_dark.jpg",
+      link: "https://stockz-chi.vercel.app/",
+      github: "https://github.com/negru-ioan/stockz/",
+      tags: ["Next", "React", "Tailwind Css", "API", "Chartjs"],
+   },
+   {
+      id: 0,
       title: "Filmsero",
       desc: "Explore the fascinating world of movies and TV shows where you can find detailed information, reviews, and recommendations.",
       img: "./img/projects/Filmsero.png",
@@ -108,15 +117,15 @@ const projects: Project[] = [
       github: "https://github.com/negru-ioan/calculator",
       tags: ["HTML", "CSS", "JavaScript"],
    },
-   {
-      id: 8,
-      title: "Ivaro srl",
-      desc: "A demo website for Ivaro srl, a company specializing in the distribution of alcoholic products.",
-      img: "./img/projects/ivaro.jpg",
-      link: "https://negru-ioan.github.io/Ivaro-Srl-website/",
-      github: "https://github.com/negru-ioan/Ivaro-Srl-website",
-      tags: ["React", "CSS", "JavaScript"],
-   },
+   // {
+   //    id: 8,
+   //    title: "Ivaro srl",
+   //    desc: "A demo website for Ivaro srl, a company specializing in the distribution of alcoholic products.",
+   //    img: "./img/projects/ivaro.jpg",
+   //    link: "https://negru-ioan.github.io/Ivaro-Srl-website/",
+   //    github: "https://github.com/negru-ioan/Ivaro-Srl-website",
+   //    tags: ["React", "CSS", "JavaScript"],
+   // },
    // {
    //    id: 10,
    //    title: "Tenzies",
