@@ -27,18 +27,18 @@ function Popup({ isOpen, closeModal, response }) {
                     <div className="modal-overlay">
                         <div className="modal-content">
                             {response ? (
-                                <>
+                                <div>
                                     <h1 style={{ fontSize: 20 }}>{response}</h1>
                                     <ProgressBar />
-                                </>
+                                </div>
                             ) : (
-                                <>
+                                <div>
                                     <div className="modal-skeleton relative overflow-hidden w-5em min-h-3em bg-gradient-to-b from-gray-200 via-transparent to-gray-200 bg-repeat-y bg-size-150px-280px bg-position-0-5px bg-position-0-40px bg-position-0-75px bg-position-90px-75px bg-position-0-110px">
                                         <div className="skeleton-indicator absolute w-full h-full animate-skeleton bg-gray-300">
                                             <div className="shadow absolute w-0 bg-white" />{' '}
                                         </div>
                                     </div>
-                                </>
+                                </div>
                             )}
                         </div>
                     </div>
