@@ -2,15 +2,10 @@ import { useEffect, useState } from 'react';
 
 import { Link } from 'react-router-dom';
 import { routes } from '../../../data/global';
-import useDelayedRender from 'use-delayed-render';
 
 export default function MobileNavbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const { mounted: isMenuMounted, rendered: isMenuRendered } =
-        useDelayedRender(isMenuOpen, {
-            enterDelay: 20,
-            exitDelay: 300,
-        });
+    const [isMenuMounted, setIsMenuMounted] = useState(false);
 
     function toggleMenu() {
         if (isMenuOpen) {
@@ -21,6 +16,16 @@ export default function MobileNavbar() {
             document.body.style.overflow = 'hidden';
         }
     }
+
+    useEffect(() => {
+        if (isMenuOpen) {
+            setIsMenuMounted(true);
+        } else {
+            // Delay unmounting for a smoother exit transition
+            const timeoutId = setTimeout(() => setIsMenuMounted(false), 700);
+            return () => clearTimeout(timeoutId);
+        }
+    }, [isMenuOpen]);
 
     useEffect(() => {
         return function cleanup() {
@@ -57,28 +62,25 @@ export default function MobileNavbar() {
             {isMenuMounted && (
                 <ul
                     className={`menu flex flex-col absolute bg-bg
-            ${isMenuRendered && 'menuRendered'}`}
+            ${isMenuOpen && 'menuRendered'}`}
                 >
-                    {routes.map((item, index) => {
-                        return (
-                            <li
-                                key={index}
-                                className="border-b border-gray-900 text-gray-100 text-sm font-semibold"
-                                style={{
-                                    transitionDelay: `${150 + index * 25}ms`,
-                                }}
+                    {routes.map((item, index) => (
+                        <li
+                            key={index}
+                            className="border-b border-gray-900 text-gray-100 text-sm font-semibold"
+                            style={{
+                                transitionDelay: `${150 + index * 25}ms`,
+                            }}
+                        >
+                            <Link
+                                to={item.path}
+                                className="flex w-auto pb-4"
+                                onClick={toggleMenu}
                             >
-                                <Link to={item.path}>
-                                    <a
-                                        className="flex w-auto pb-4"
-                                        onClick={toggleMenu}
-                                    >
-                                        {item.title}
-                                    </a>
-                                </Link>
-                            </li>
-                        );
-                    })}
+                                {item.title}
+                            </Link>
+                        </li>
+                    ))}
                 </ul>
             )}
         </nav>
